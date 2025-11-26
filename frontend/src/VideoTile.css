@@ -1,0 +1,20 @@
+.video-tile {
+  position: relative;
+  background: black;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.tile-overlay {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  background: rgba(0,0,0,0.45);
+  color: white;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+}
