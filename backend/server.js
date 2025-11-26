@@ -12,7 +12,7 @@ app.use(cors({ origin: 'http://localhost:3000' }));
 const server = http.createServer(app);                    
 const io = socketio(server, { cors: { origin: '*' } });   
 
-const RTSP_URL = 'rtsp://13.60.76.79:8554/live2';         
+const RTSP_URL = 'rtsp://13.60.76.79:8554/live3';         
 const HLS_ROOT = path.join(__dirname, 'public', 'hls');   
 
 // Ensure hls dirs exist
